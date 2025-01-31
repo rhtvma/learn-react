@@ -19,4 +19,17 @@ button {
     padding: 10px;
     margin: 10px;
     font-size: 20px;
+    border-radius: 10px;
+}
+
+.add {
+    background-color: green;
+}
+
+.sub {
+    background-color: red;
+}
+
+.reset {
+    background-color: blueviolet;
 }
