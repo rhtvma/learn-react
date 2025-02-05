@@ -1,0 +1,104 @@
+.App {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 18px;
+    padding: 0px 10px;
+  }
+
+  img {
+    max-width: 40px;
+  }
+
+  
+ul{
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+li{
+  font: 12px;
+  list-style: none;
+  margin: 20px 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+button.delete{
+    border: 0px;
+    border-radius: 5px;
+    background-color: #be3434;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button.toggle{
+    border: 0px;
+    border-radius: 5px;
+    background-color: #0F3460;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  button.trigger {
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(53, 24, 94);
+    color: #FFFFFF;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .box{
+    width: 400px;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px 5px;
+    border: 0px;
+    border-radius: 5px;
+  }
+  
+  .box.success {
+    background-color: aquamarine;
+  }
+
+  .box.warning {
+    background-color: rgb(223, 178, 30);
+  }
+
+  .box.failed {
+    background-color: #be3434;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+     /* Style to create a horizontal list */
+     ul.horizontal-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    ul.horizontal-list li {
+      margin-right: 10px;
+    }
